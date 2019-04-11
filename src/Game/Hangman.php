@@ -6,18 +6,29 @@ class Hangman
 {
     private $word;
     private $hiddenWord;
-
+    private $wordGuessCollection;
     private $attempts = 11;
 
-    public function __construct(Word $word)
+    public function __construct(Word $word, WordGuessCollection $wordGuessCollection)
     {
         $this->word = $word->wordInString();
+        $this->wordGuessCollection = $wordGuessCollection;
         $this->hiddenWord = $word->wordInArray();
     }
 
     public function attemptsLeft(): int
     {
         return $this->attempts;
+    }
+
+    public function length(): int
+    {
+        return sizeof($this->hiddenWord);
+    }
+
+    public function wordGuessCollection()
+    {
+        return $this->wordGuessCollection;
     }
 
     public function guessLetter($guessedLetter): string
@@ -35,10 +46,18 @@ class Hangman
 
         foreach ($this->hiddenWord as $position => $letterInWord) {
             if ($guessedLetter === $letterInWord) {
-                $correctGuess = new WordGuess($position, $letterInWord);
+                $correctGuess = new WordGuess();
+                $correctGuess->setPosition($position);
+                $correctGuess->setLetter($letterInWord);
+                $this->wordGuessCollection->appendWordGuess($correctGuess);
             }
         }
-        // return full word when correct
+
+        if ($this->length() == $correctGuess::$counter) {
+            // return full word when all correct guesses
+            return $this->word;
+        }
+
         return $correctGuess->letter();
     }
 }
