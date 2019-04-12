@@ -44,9 +44,7 @@ class Hangman
         foreach ($this->hiddenWord as $position => $letterInWord) {
             if ($guessedLetter === $letterInWord) {
                 global $correctGuess;
-                $correctGuess= new WordGuess();
-                $correctGuess->setPosition($position);
-                $correctGuess->setLetter($letterInWord);
+                $correctGuess= new WordGuess($position, $letterInWord);
             }
         }
 

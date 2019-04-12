@@ -10,19 +10,12 @@ class WordGuess
     private $letterInWord;
     public static $counter = 0;
 
-    public function __construct()
+    public function __construct(int $position, string $letterInWord)
     {
         WordGuess::$counter++;
-    }
-
-    public function setPosition(int $position)
-    {
         $this->position = $position;
-    }
-
-    public function setLetter(string $letterInWord)
-    {
         $this->letterInWord = $letterInWord;
+
     }
 
     public function letter(): string
