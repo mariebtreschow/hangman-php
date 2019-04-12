@@ -33,8 +33,6 @@ class Hangman
 
     public function guessLetter($guessedLetter): string
     {
-        $correctGuess = '';
-
         if ($this->attempts === 0) {
             throw new GameOver();
         }
@@ -46,7 +44,8 @@ class Hangman
 
         foreach ($this->hiddenWord as $position => $letterInWord) {
             if ($guessedLetter === $letterInWord) {
-                $correctGuess = new WordGuess();
+                global $correctGuess;
+                $correctGuess= new WordGuess();
                 $correctGuess->setPosition($position);
                 $correctGuess->setLetter($letterInWord);
                 $this->wordGuessCollection->appendWordGuess($correctGuess);
@@ -54,7 +53,6 @@ class Hangman
         }
 
         if ($this->length() == $correctGuess::$counter) {
-            // return full word when all correct guesses
             return $this->word;
         }
 

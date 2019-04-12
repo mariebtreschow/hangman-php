@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42160ae8-df19-482c-9c20-42ac5c9976de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game/WordGuessCollection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game/Hangman.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Hangman.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/WordGuess.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/WordGuess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/DummyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DummyTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Game/Hangman.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+                <state relative-caret-position="137">
+                  <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +79,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/DummyTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="409">
-                  <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+                <state relative-caret-position="417">
+                  <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
                   <folding>
                     <element signature="e#32#50#0#PHP" expanded="true" />
                   </folding>
@@ -152,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/Game/WordCollection.php" />
         <option value="$PROJECT_DIR$/src/Game/WordGuessCollection.php" />
         <option value="$PROJECT_DIR$/src/Game/WordGuess.php" />
-        <option value="$PROJECT_DIR$/src/Game/Hangman.php" />
         <option value="$PROJECT_DIR$/tests/DummyTest.php" />
+        <option value="$PROJECT_DIR$/src/Game/Hangman.php" />
       </list>
     </option>
   </component>
@@ -295,29 +291,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554747278793</updated>
-      <workItem from="1554747283370" duration="19455000" />
+      <workItem from="1554747283370" duration="19746000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 20m 25s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 21m 20s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 21m 33s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 22m 22s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 23m 50s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 24m 24s.xml">
-      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 25m 23s.xml">
       <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -330,9 +308,27 @@
     <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 27m 08s.xml">
       <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 28m 21s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.11 at 13h 28m 38s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.12 at 10h 40m 26s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.12 at 10h 41m 16s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.12 at 10h 41m 26s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DummyTest_testWhenGuessingAllTheCorrectWordsGameWin - 2019.04.12 at 10h 41m 33s.xml">
+      <configuration name="DummyTest.testWhenGuessingAllTheCorrectWordsGameWin" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19455000" />
+    <option name="totallyTimeSpent" value="19746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -448,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/Hangman.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/WordGuess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -471,11 +460,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/DummyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="417">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           <folding>
             <element signature="e#32#50#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Hangman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
