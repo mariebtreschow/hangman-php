@@ -9,10 +9,9 @@ class Hangman
     private $wordGuessCollection;
     private $attempts = 11;
 
-    public function __construct(Word $word, WordGuessCollection $wordGuessCollection)
+    public function __construct(Word $word)
     {
         $this->word = $word->wordInString();
-        $this->wordGuessCollection = $wordGuessCollection;
         $this->hiddenWord = $word->wordInArray();
     }
 
@@ -48,7 +47,6 @@ class Hangman
                 $correctGuess= new WordGuess();
                 $correctGuess->setPosition($position);
                 $correctGuess->setLetter($letterInWord);
-                $this->wordGuessCollection->appendWordGuess($correctGuess);
             }
         }
 

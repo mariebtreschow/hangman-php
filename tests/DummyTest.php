@@ -3,7 +3,6 @@
 use Game\GameOver;
 use Game\Hangman;
 use Game\Word;
-use Game\WordGuessCollection;
 use PHPUnit\Framework\TestCase;
 use Game\Saldo;
 use Game\WrongLetterException;
@@ -82,14 +81,14 @@ class DummyTest extends TestCase
 
     public function testItRevealsALetterOnCorrectGuess()
     {
-        $hangman = new Hangman(new Word('marie'), new WordGuessCollection());
+        $hangman = new Hangman(new Word('marie'));
         $guessedLetter = $hangman->guessLetter('a');
         self::assertEquals($guessedLetter, 'a');
     }
 
     public function testItRevealsALetterOnCorrectGuessSecondGuess()
     {
-        $hangman = new Hangman(new Word('marie'), new WordGuessCollection());
+        $hangman = new Hangman(new Word('marie'));
         $guessedLetter = $hangman->guessLetter('r');
         self::assertEquals($guessedLetter, 'r');
     }
@@ -98,7 +97,7 @@ class DummyTest extends TestCase
     public function testWhenGuessingAllTheCorrectWordsGameWin()
     {
         // when guessed everyone correct return full name
-        $hangman = new Hangman(new Word('marie'), new WordGuessCollection());
+        $hangman = new Hangman(new Word('marie'));
         $hangman->guessLetter('m');
         $hangman->guessLetter('a');
         $hangman->guessLetter('r');
